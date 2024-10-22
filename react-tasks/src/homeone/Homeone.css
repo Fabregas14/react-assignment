@@ -1,0 +1,9 @@
+.profilehome{
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin: auto;
+    gap: 1rem;
+    margin-top: 25px;
+   
+}
