@@ -1,0 +1,42 @@
+.CardImages{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    width: 100%;
+    margin: 0px auto 20px;
+    /* border: 1px solid; */
+}
+#mainHeading{
+    text-align: center;
+    font-size: 50px;
+}
+@media screen and (min-width:0px) {
+    .CardImages{
+
+      grid-template-columns: 1fr;
+      margin: 0px 50px 0px;
+    }
+    #mainHeading{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:330px) {
+    .CardImages{
+        flex-wrap: wrap;
+    }
+    #mainHeading{
+        text-align: center;
+        font-size: 30px;
+    }
+    @media screen and (min-width:500px) {
+        .CardImages{
+            display: flex;
+            margin: 0px auto;
+        }
+        #mainHeading{
+            text-align: center;
+            font-size: 30px;
+        }
+}
+}
